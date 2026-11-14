@@ -56,10 +56,6 @@ export const searchAny = (columns, term) => {
   };
 };
 
-/** Parse page/limit query params into { page, limit, offset }. */
-export const paginate = (query, defaultLimit = 20) => {
-  const page = Math.max(parseInt(query.page, 10) || 1, 1);
-  const limit = Math.max(parseInt(query.limit, 10) || defaultLimit, 1);
-  return { page, limit, offset: (page - 1) * limit };
-};
+/** Parse and sanitize page/limit query params into { page, limit, offset }. */
+export { paginate } from '../utils/pagination.js';
 
