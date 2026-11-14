@@ -374,3 +374,8 @@ A searchable and filterable list of verified sources:
 - Encourages cross-country collaboration for credible referencing
 - Supports smaller language Wikipedias with localized reference vetting
 - Creates an open dataset of verified credible references per country
+
+## Contributing
+
+We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for details on our workflow, how to find and claim tasks on Phabricator, branch naming conventions, and running local tests.
+
